@@ -1,0 +1,83 @@
+/* Add additional stylesheets below
+-------------------------------------------------- */
+/*
+  Bootstrap's documentation styles
+  Special styles for presenting Bootstrap's documentation and examples
+*/
+
+/* Body and structure
+-------------------------------------------------- */
+body {
+  position: relative;
+  padding-top: 80px;
+  background: #fff;
+}
+
+/* Tweak navbar brand link to be super sleek
+-------------------------------------------------- */
+.navbar-fixed-top .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #999;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+.navbar-fixed-top .brand:hover {
+  text-decoration: none;
+}
+
+img.floatLeft { 
+    float: left; 
+    margin: 4px 8px 4px 0;
+}
+img.floatRight { 
+    float: right; 
+    margin: 4px; 
+}
+
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+  margin-top: 45px;
+  padding: 35px 0 36px;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f9f9f9;
+}
+.footer p {
+  margin-bottom: 0;
+  color: #555;
+}
+
+/* Cherry Picked from http://rubynaut.net/ */
+
+ul.buttons li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+
+a.social {
+  display: block;
+  width:  34px;
+  height: 34px;
+  background: url(/img/social_icons.png) no-repeat;
+  margin: 3px;
+}
+
+a.social.github { background-position: -68px 0; }
+a.social.github:hover { background-position: -68px -34px; }
+a.social.twitter { background-position: 0 0; }
+a.social.twitter:hover { background-position: 0px -34px; }
+a.social.rss { background-position: -34px 0; }
+a.social.rss:hover { background-position:  -34px -34px; }
+a.social.mail { background-position: -136px 0; }
+a.social.mail:hover { background-position: -136px -34px; }
+a.social.gplus { background-position: -170px 0; }
+a.social.gplus:hover { background-position: -170px -34px; }
